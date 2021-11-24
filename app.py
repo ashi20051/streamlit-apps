@@ -6,7 +6,7 @@ from pyvis.network import Network
 
 
 # Read dataset (CSV)
-df_interact = pd.read_csv('D:/M.tech IIITD/sem 3/NB Project/Pyvis-Network-Graph-Streamlit-main/Pyvis-Network-Graph-Streamlit-main/data/processed_drug_interactions.csv')
+df_interact = pd.read_csv('data/processed_drug_interactions.csv')
 
 # Set header title
 st.title('Network Graph Visualization of Drug-Drug Interactions')
